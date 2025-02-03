@@ -52,12 +52,6 @@ a:link {
     padding-top: 8px;
 }
 
-.start-image {
-    background-image: url("../img/jumbo.png");
-    background-size: 100% 100% ;
-    background-repeat: no-repeat;
-}
-
 h1 {
     padding-bottom: 50px;
 }
@@ -165,7 +159,6 @@ section {
 }
 
 .large-box {
-    background-color: #1e90ff;
     flex-grow: 2;
     height: 390px;
 }
@@ -179,6 +172,7 @@ section {
     height: 890px;
     flex-grow: 1;
 }
+
 
 /******
 Footer
@@ -227,4 +221,20 @@ footer section:first-child{
     padding-bottom: 0px;
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
+}
+
+/******
+Image
+******/
+
+.start-image {
+    background-image: url("../img/jumbo.png");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
+
+.item1-image {
+    background-image: url("../img/item1.svg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
 }
