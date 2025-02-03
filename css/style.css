@@ -146,7 +146,7 @@ Utilities
 }
 
 .title-section {
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .description {
@@ -165,9 +165,11 @@ section {
 .large-box {
     height: 390px;
     flex-grow: 2;
+    flex-shrink: 1;
 }
 
 .small-box {
+    display: inline-block;
     flex-grow: 1;
 }
 
