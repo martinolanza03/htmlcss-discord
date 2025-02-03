@@ -134,9 +134,6 @@ Container
 /******
 Utilities
 ******/
-.bg-blue {
-    background-color: #00008b;
-}
 
 .bg-white {
     background-color: #FFFFFF;
@@ -144,10 +141,6 @@ Utilities
 
 .bg-grey {
     background-color: #d3d3d3;
-}
-
-.bg-green {
-    background-color: #228b22;
 }
 
 .bg-black {
@@ -215,10 +208,6 @@ section {
 Footer
 ******/
 
-footer section:first-child{
-    padding-top: 5px;
-} 
-
 .small-footer-box {
     flex-grow: 1;
 }
@@ -244,7 +233,7 @@ footer section:first-child{
     background-image: url("../img/logo.svg");
     background-size: 90px ;
     background-repeat: no-repeat;
-    padding: 2px;
+    padding: 30px;
 }
 
 .button-footer {
