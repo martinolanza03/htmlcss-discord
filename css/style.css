@@ -118,6 +118,19 @@ Container
     gap: 10px;
 }
 
+.button-download-last {
+    width: 150px;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #FFFFFF ;
+    padding: 7px 10px ;
+    background-color: #7288da;
+    margin: 0 auto;
+}
+
 /******
 Utilities
 ******/
@@ -272,5 +285,6 @@ Image
     margin: 0 auto;
     display: flex;
     align-items: flex-end;
-    justify-content: center
+    justify-content: center;
+    padding-bottom: 20px;
 }
