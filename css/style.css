@@ -172,6 +172,18 @@ Utilities
     width: 500px;
 }
 
+.title-list {
+    color: #7288da;
+}
+
+div > ul {
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+ul > li {
+    padding: 10px;
+}
 /******
 Section
 ******/
@@ -208,19 +220,16 @@ footer section:first-child{
 } 
 
 .small-footer-box {
-    background-color: #f08080;
     flex-grow: 1;
 }
 
 .large-footer-box {
-    background-color: #20b2aa;
     display: flex;
     flex-grow: 2;
     height: 390px;
 }
 
 .division-box-footer{
-    border: dotted 1px #FFFFFF;
     flex-grow: 1;
 }
 
@@ -246,6 +255,15 @@ footer section:first-child{
     padding-bottom: 0px;
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
+}
+
+.text-flag {
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+
+.icon {
+    color: #FFFFFF;
 }
 
 /******
@@ -287,4 +305,9 @@ Image
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+img.flag {
+    width: 30px;
+    background-repeat: no-repeat;
 }
