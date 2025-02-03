@@ -235,13 +235,15 @@ footer section:first-child{
 
 .nav-footer{
     display: flex;
-    background-color: #7fffd4;
     padding: 24px 0 24px 0;
     justify-content: space-between;
 }
 
 .logo-footer {
-    background-color: #ffb6c1;
+    width: 100px;
+    background-image: url("../img/logo.svg");
+    background-size: 90px ;
+    background-repeat: no-repeat;
     padding: 2px;
 }
 
@@ -264,6 +266,10 @@ footer section:first-child{
 
 .icon {
     color: #FFFFFF;
+}
+
+div.container.nav-footer {
+    border-top: 1px solid #7288da;
 }
 
 /******
