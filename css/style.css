@@ -127,11 +127,6 @@ Container
 /******
 Utilities
 ******/
-
-.dotted {
-    border: 1px dotted #000000;
-}
-
 .bg-blue {
     background-color: #00008b;
 }
