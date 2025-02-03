@@ -15,7 +15,7 @@ Header
 
 header {
     padding: 17px 0 2px 0;
-    background-color: #add8e6;
+    background-color: #255ee8;
 }
 
 nav{
@@ -41,6 +41,12 @@ nav{
     text-align: right;
     padding: 2px;
     flex-shrink: 0;
+}
+
+.start-image {
+    background-image: url("../img/jumbo.png");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
 }
 
 
