@@ -146,7 +146,12 @@ Utilities
 }
 
 .title-section {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle-section {
+    padding-top: 20px;
 }
 
 .description {
@@ -163,14 +168,17 @@ section {
 }
 
 .large-box {
+    width: 600px;
     height: 390px;
     flex-grow: 2;
     flex-shrink: 1;
 }
 
 .small-box {
+    width: 300px;
     display: inline-block;
     flex-grow: 1;
+    padding-top: 30px;
 }
 
 .giant-box {
@@ -240,6 +248,6 @@ Image
 
 .item1-image {
     background-image: url("../img/item1.svg");
-    background-size: 500px ;
+    background-size: 100% 100% ;
     background-repeat: no-repeat;
 }
