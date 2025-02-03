@@ -101,6 +101,37 @@ Container
     background-color: #FFFFFF;
 }
 
+.button-download {
+    width: 150px;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #000000 ;
+    padding: 7px 10px ;
+    background-color: #FFFFFF;
+}
+
+.button-open {
+    width: 250px;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #FFFFFF ;
+    padding: 7px 10px ;
+    background-color: #23272a;
+}
+
+.button-header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 /******
 Utilities
 ******/
@@ -131,6 +162,10 @@ Utilities
 
 .title {
     font-size: 30px;
+}
+
+.decription {
+    
 }
 
 /******
