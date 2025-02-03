@@ -248,8 +248,14 @@ footer section:first-child{
 }
 
 .button-footer {
-    background-color: #ffb6c1;
-    padding: 2px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #FFFFFF ;
+    padding: 3px 10px ;
+    background-color: #7288da;
 }
 
 .last-border {
