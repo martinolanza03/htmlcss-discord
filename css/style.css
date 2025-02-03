@@ -1,0 +1,172 @@
+/******
+Reset
+******/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/******
+Header
+******/
+
+header {
+    padding: 17px 0 2px 0;
+    background-color: #add8e6;
+}
+
+nav{
+    display: flex;
+    background-color: #daa520;
+    justify-content: space-between;
+}
+
+.logo {
+    flex-grow: 1;
+    padding: 2px;
+    flex-shrink: 0;
+}
+
+.link {
+    flex-grow: 2;
+    text-align: center;
+    padding: 2px;
+}
+
+.login {
+    flex-grow: 1;
+    text-align: right;
+    padding: 2px;
+    flex-shrink: 0;
+}
+
+
+/******
+Debug
+******/
+
+.debug{
+    height: 300px;
+    background-color: violet;
+}
+
+/******
+Container
+******/
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.second-container-header{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #ee82ee;
+    height: 390px;
+}
+
+/******
+Utilities
+******/
+
+.dotted {
+    border: 1px dotted #000000;
+}
+
+.bg-blue {
+    background-color: #00008b;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+.bg-green {
+    background-color: #228b22;
+}
+
+.bg-black {
+   background-color: #23272a;
+}
+
+/******
+Section
+******/
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.large-box {
+    background-color: #1e90ff;
+    flex-grow: 2;
+    height: 390px;
+}
+
+.small-box {
+    background-color: #ffc0cb;
+    flex-grow: 1;
+}
+
+.giant-box {
+    height: 890px;
+    flex-grow: 1;
+}
+
+/******
+Footer
+******/
+
+footer section:first-child{
+    padding-top: 5px;
+} 
+
+.small-footer-box {
+    background-color: #f08080;
+    flex-grow: 1;
+}
+
+.large-footer-box {
+    background-color: #20b2aa;
+    display: flex;
+    flex-grow: 2;
+    height: 390px;
+}
+
+.division-box-footer{
+    border: dotted 1px #FFFFFF;
+    flex-grow: 1;
+}
+
+.nav-footer{
+    display: flex;
+    background-color: #7fffd4;
+    padding: 24px 0 24px 0;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    background-color: #ffb6c1;
+    padding: 2px;
+}
+
+.button-footer {
+    background-color: #ffb6c1;
+    padding: 2px;
+}
+
+.last-border {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
