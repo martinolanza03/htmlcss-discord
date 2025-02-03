@@ -256,3 +256,9 @@ Image
     background-size: 100% 100% ;
     background-repeat: no-repeat;
 }
+
+.item3-image {
+    background-image: url("../img/item3.svg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
