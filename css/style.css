@@ -61,13 +61,13 @@ Container
 ******/
 
 .container {
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
 }
 
 .second-container-header{
-    width: 880px;
+    width: 700px;
     margin: 0 auto;
     height: 390px;
     padding: 70px;
@@ -145,6 +145,10 @@ Utilities
     font-size: 30px;
 }
 
+.title-section {
+    font-size: 35px;
+}
+
 .description {
     margin: 0 auto;
     width: 500px;
@@ -159,12 +163,11 @@ section {
 }
 
 .large-box {
-    flex-grow: 2;
     height: 390px;
+    flex-grow: 2;
 }
 
 .small-box {
-    background-color: #ffc0cb;
     flex-grow: 1;
 }
 
@@ -235,6 +238,6 @@ Image
 
 .item1-image {
     background-image: url("../img/item1.svg");
-    background-size: 100% 100% ;
+    background-size: 500px ;
     background-repeat: no-repeat;
 }
