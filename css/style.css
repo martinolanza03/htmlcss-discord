@@ -171,11 +171,10 @@ section {
     width: 600px;
     height: 390px;
     flex-grow: 2;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 
 .small-box {
-    width: 300px;
     display: inline-block;
     flex-grow: 1;
     padding-top: 30px;
@@ -251,3 +250,5 @@ Image
     background-size: 100% 100% ;
     background-repeat: no-repeat;
 }
+
+#item2-image
