@@ -14,7 +14,7 @@ Header
 ******/
 
 header {
-    padding: 17px 0 2px 0;
+    padding-top: 17px;
     background-color: #255ee8;
 }
 
@@ -165,8 +165,9 @@ Utilities
     font-size: 30px;
 }
 
-.decription {
-    
+.description {
+    margin: 0 auto;
+    width: 500px;
 }
 
 /******
