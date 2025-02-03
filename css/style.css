@@ -32,8 +32,9 @@ nav{
 .link {
     display: flex;
     flex-grow: 2;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 9px;
+    gap: 40px;
 }
 
 a {
