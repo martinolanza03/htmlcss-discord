@@ -57,6 +57,9 @@ a:link {
     background-repeat: no-repeat;
 }
 
+h1 {
+    padding-bottom: 50px;
+}
 
 /******
 Debug
@@ -78,7 +81,7 @@ Container
 }
 
 .second-container-header{
-    width: 900px;
+    width: 880px;
     margin: 0 auto;
     height: 390px;
     padding: 70px;
@@ -124,6 +127,10 @@ Utilities
 
 .bg-black {
    background-color: #23272a;
+}
+
+.title {
+    font-size: 30px;
 }
 
 /******
