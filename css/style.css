@@ -6,7 +6,7 @@ Reset
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif ;
 }
 
 /******
@@ -20,27 +20,34 @@ header {
 
 nav{
     display: flex;
-    background-color: #daa520;
     justify-content: space-between;
 }
 
 .logo {
-    flex-grow: 1;
-    padding: 2px;
-    flex-shrink: 0;
+    padding: 2px 50px 2px 2px;
 }
 
 .link {
+    display: flex;
     flex-grow: 2;
     text-align: center;
-    padding: 2px;
+    justify-content: space-evenly;
+    padding: 9px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: #FFFFFF;
 }
 
 .login {
-    flex-grow: 1;
     text-align: right;
     padding: 2px;
-    flex-shrink: 0;
 }
 
 .start-image {
@@ -64,16 +71,18 @@ Container
 ******/
 
 .container {
-    width: 900px;
+    width: 1100px;
     margin: 0 auto;
     display: flex;
 }
 
 .second-container-header{
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
-    background-color: #ee82ee;
     height: 390px;
+    padding: 70px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 /******
